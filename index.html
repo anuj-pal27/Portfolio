@@ -140,6 +140,22 @@
         display: flex;
         justify-content: center;
       }
+      .btn {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7%;
+        height: 40px;
+       justify-content: center;
+       align-items: center;
+        width: 100px;
+        cursor: pointer;
+        background-color: rgb(101 102 149);
+      }
+      .btn a{
+        font-size: 1rem;
+        color: black;
+        text-decoration: none;
+      }
     </style>
 </head>
 <body>
@@ -164,6 +180,7 @@
                 Hii, My name is <span class="purple">Anuj</span> 
                  <div>and I am a passionate </div>
                  <span id="element"></span>
+                 <button class="btn" onclick="redirectTo('https://github.com/anuj-pal27/Onlin-Test-App.git')"><a href="https://github.com/anuj-pal27/Onlin-Test-App.git">GIT HUB</a></button>
             </div>
             <div class="rightSection">
                 <img src="PngItem_5237005.png" alt="">
@@ -239,7 +256,7 @@
         <h1>Online Test App</h1>
         <div class="link">
             
-            <a href="https://drive.google.com/drive/folders/1gril3KCyV6W37L7KTQ5YyseuEiNGZ7xI?usp=drive_link">Click To Visit The Project Link</a>
+            <a href="https://github.com/anuj-pal27/Onlin-Test-App.git">Click To Visit The GIT HUB Project Link </a>
         </div>
     </main>
 </body>
@@ -250,5 +267,10 @@
       strings: ['Frontened Developer', 'Backened Developer','Full-Stack Web Developer'],
       typeSpeed: 50,
     });
+    
+
+  function redirectTo(url) {
+    window.location.href = url;
+  }
   </script>
 </html>
