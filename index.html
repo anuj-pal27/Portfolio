@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuj - Developer Portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            background-color: rgb(0,0,33);
+            color: white;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+            position: fixed;
+            width: 100vw;
+            top: 0px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 1.1rem;
+            color:white;
+        }
+        nav ul li a:hover{
+            color:rgb(143, 143, 168);
+            font-size: 1.2rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+        .leftSection{
+            font-size: 3rem;
+            margin-left: 15%;
+        }
+        .rightSection img{
+            width: 60%;
+
+        }
+        .firstSection div{
+            width: 46%;
+        }
+        .purple{
+            color: rgba(137, 43, 226, 0.796);
+        }
+        #element{
+            color: rgba(137, 43, 226, 0.796);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 70vh;
+        }
+        main hr{
+            border: 0;
+            background:#9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        .text-grey{
+            color: grey;
+            /* font-size: 0.9rem; */
+        }
+        .secondSection .box{
+            background: white;
+            width: 76vw;
+            height: 2px;
+            margin: 90px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+        }
+        .image-top{
+            width: 37px;
+            position: relative;
+            top: -47px;
+            left: -9px;
+        }
+      .vertical-title{
+        position: relative;
+        top: 75px;
+        width: 150px;
+      }
+      .vertical-desc{
+        position: relative;
+        top: 86px;
+        color: grey;
+        width: 150px;
+        font-size: 0.9rem;
+      }
+      .certificate{
+        width: 100%;
+        margin: auto;
+        height: 80vh;
+      }
+      .certificate img{
+        width: 80vw;
+        height: 70vh;
+        position: relative;
+        left: 10%;
+        margin-top: 0px;
+      }
+      .link{
+        display: flex;
+        justify-content: center;
+        color: blue;
+      }
+      .link a{margin-bottom: 20px;
+        font-size: 2rem;
+      }
+      #projects h1{
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="left">Anuj Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#accomplishment">Accomplishment</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="/">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii, My name is <span class="purple">Anuj</span> 
+                 <div>and I am a passionate </div>
+                 <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="PngItem_5237005.png" alt="">
+            </div>
+        </section> 
+        <hr>
+        <section class="secondSection" id="About">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="html.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores temporibus illo saepe nam sequi harum, placeat ratione est eaque dignissimos molestias dolore aliquam.</div>
+
+                </div>
+                <div class="vertical">
+                
+                    <img src="css.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                      CSS  Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores temporibus illo saepe nam sequi harum, placeat ratione est eaque dignissimos molestias dolore aliquam.</div>
+
+                </div>
+                
+                <div class="vertical">
+                    <img src="js.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                      JS Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores temporibus illo saepe nam sequi harum, placeat ratione est eaque dignissimos molestias dolore aliquam.</div>
+
+                </div>
+                <div class="vertical">
+                    <img src="python.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                      PYTHON Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores temporibus illo saepe nam sequi harum, placeat ratione est eaque dignissimos molestias dolore aliquam.</div>
+
+                </div>
+                <div class="vertical">
+                    <img src="django.png" alt="" class="image-top">
+                    <div class="vertical-title">
+                      DJANGO Developer (2022-2023)
+                    </div>
+                    <div class="vertical-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores temporibus illo saepe nam sequi harum, placeat ratione est eaque dignissimos molestias dolore aliquam.</div>
+
+                </div>
+            </div>
+           
+        </section>
+    </main>
+    <main id="accomplishment">
+        <hr>
+        <div class="certificate">
+            <div class="link">
+            <a href="https://drive.google.com/drive/folders/1UxAE3OKIppuzVA3SQ6MgirD688u_mfJ_?usp=drive_link">Click To View The certificate</a>
+            </div>
+            <img src="Screenshot 2023-06-25 105334.png" alt="">
+        </div>
+        <hr>
+        <div class="certificate">
+            <img src="Screenshot 2023-06-25 110415.png" alt="">
+        </div>
+    </main>
+    <hr>
+
+    <main id="projects">
+        <h1>Online Test App</h1>
+        <div class="link">
+            
+            <a href="https://drive.google.com/drive/folders/1gril3KCyV6W37L7KTQ5YyseuEiNGZ7xI?usp=drive_link">Click To Visit The Project Link</a>
+        </div>
+    </main>
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+ <!-- Setup and start animation! -->
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['Frontened Developer', 'Backened Developer','Full-Stack Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</html>
